@@ -1,0 +1,18 @@
+﻿<h1 class="section-heading">Casters</h1>
+<p class="lead section-lead">Conheça nosso time de heróis!</p>
+<div class="col-md-3 text-center" ng-repeat="caster in vm.casters">
+    <img ng-src="{{ caster.image }}" alt="{{ caster.name }}" />
+    <h4 class="exothin">
+        {{ caster.name }}<br />
+        <small>{{ caster.title }}</small>
+    </h4>
+    <p>
+        <span class="fa-stack fa-lg" ng-repeat="network in caster.networks">
+            <a href="{{ network.link }}" target="_blank">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa {{ network.icon }} fa-stack-1x fa-inverse"></i>
+            </a>
+        </span>
+    </p>
+    <br /><br />
+</div>
