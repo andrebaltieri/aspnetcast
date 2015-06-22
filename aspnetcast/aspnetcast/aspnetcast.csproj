@@ -58,6 +58,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\views\episodios.html" />
     <Content Include="fonts\exo\exo-thin-webfont.eot" />
     <Content Include="fonts\exo\exo-thin-webfont.ttf" />
     <Content Include="fonts\exo\exo-thin-webfont.woff" />

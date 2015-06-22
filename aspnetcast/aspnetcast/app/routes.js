@@ -12,6 +12,11 @@
 			    controllerAs: 'vm',
 			    templateUrl: 'app/views/casters.html'
 			})
+            .when('/episodios', {
+                controller: 'HomeController',
+                controllerAs: 'vm',
+                templateUrl: 'app/views/episodios.html'
+            })
 			.when('/convidados', {
 			    controller: 'GuestController',
 			    controllerAs: 'vm',
